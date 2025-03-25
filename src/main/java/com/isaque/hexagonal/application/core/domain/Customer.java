@@ -2,13 +2,13 @@ package com.isaque.hexagonal.application.core.domain;
 
 import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails.Address;
 
-public class Costumer {
+public class Customer {
 
-    public Costumer() {
+    public Customer() {
         this.isIsValidCpf = false;
     }
 
-    public Costumer(String id, String name, Address address, String cpf, Boolean isValidCpf) {
+    public Customer(String id, String name, Address address, String cpf, Boolean isValidCpf) {
         this.id = id;
         this.name = name;
         this.address = address;

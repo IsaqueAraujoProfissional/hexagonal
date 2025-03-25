@@ -1,11 +1,11 @@
 package com.isaque.hexagonal.application.core.domain;
 
-public class Adress {
+public class Address{
 
-    public Adress() {
+    public Address() {
     }
 
-    public Adress(String street, String city, String state) {
+    public Address(String street, String city, String state) {
         this.street = street;
         this.city = city;
         this.state = state;
